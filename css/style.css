@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(at 1% 36%, transparent 0%, #000000 100%) 45% 70%/194% 182%, conic-gradient(from 301deg at 14% 13%, #753ffd 0%, #061445 71.892%, #6c36e9 100%) 47% 67%/138% 125%;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    position: relative;
+    z-index: 2;
+}
